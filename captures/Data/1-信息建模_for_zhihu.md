@@ -6,7 +6,7 @@
 
 现在考虑图1.1(c)。您会如何用语言表述此示例所传达的事实？大多数人会说：“患者编号（PatientNumber）为10的患者，其体温为100度”。这依赖于对相关业务领域的背景知识（例如，知道患者是通过患者编号来标识的，并且该温度是患者的体温）。
 
-<img src="https://raw.githubusercontent.com/Leamon-Lee/Markdown4Zhihu/master/orm-learning/captures/Data/1-信息建模/1_1.png" alt="1" style="zoom: 25%;" />
+<img src="https://raw.githubusercontent.com/Leamon-Lee/orm-learning/refs/heads/master/captures/Data/1-信息建模/1.png" alt="1" style="zoom: 25%;" />
 
 **图1.1 这些示例旨在传达什么信息？What information is intended to be conveyed by these examples?**
 
@@ -16,7 +16,7 @@
 
 在开发信息系统时，信息可以在不同的层面进行处理，如图1.2(b)所示：
 
-<img src="https://raw.githubusercontent.com/Leamon-Lee/Markdown4Zhihu/master/orm-learning/captures/Data/1-信息建模/2_1.png" alt="2" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Leamon-Lee/orm-learning/refs/heads/master/captures/Data/1-信息建模/2.png" alt="2" style="zoom:25%;" />
 
 **图 1.2 信息系统开发中涉及的模型与层面 Models and levels involved in information systems development**
 
@@ -29,7 +29,7 @@
 
 *对象角色建模（Object-Role Modeling, ORM）*（本书的重点）是一种模型驱动工程方法，它从用户熟悉的任何外部形式呈现的所需信息和查询的典型示例开始，然后在概念层用简单事实对这些示例进行*表述（Verbalized）*，这些简单事实用*受控自然语言（Controlled Natural Language）*表达——一种受限制且明确无歧义的自然语言变体，其语义容易被人类理解，同时也是形式化的，因此它可以用来将结构自动映射到较低层面进行实现，如图1.3所示。作为这一整体过程的一部分，本书讨论了如何创建 ORM 模型以及如何将它们映射到关系数据库模型。ORM 模型也可以映射到其他类型的模型（对象导向型、演绎型等）。
 
-<img src="https://raw.githubusercontent.com/Leamon-Lee/Markdown4Zhihu/master/orm-learning/captures/Data/1-信息建模/3_1.png" alt="3" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Leamon-Lee/orm-learning/refs/heads/master/captures/Data/1-信息建模/3.png" alt="3" style="zoom:25%;" />
 
 **图1.3 基于示例表述的模型驱动工程 (Model-Driven Engineering Based on Verbalization of Examples)**
 
