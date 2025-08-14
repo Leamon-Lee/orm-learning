@@ -19,7 +19,7 @@ from shutil import copyfile
 ###############################################################################################################
 # GITHUB_REPO_PREFIX = Path("https://raw.githubusercontent.com/`YourUserName`/`YourRepoName`/master/Data/")
 # Your image folder remote link
-GITHUB_REPO_PREFIX = "https://raw.github.com/Leamon-Lee/Markdown4Zhihu/master/captures/"
+GITHUB_REPO_PREFIX = "https://raw.githubusercontent.com/Leamon-Lee/Markdown4Zhihu/master/captures/Data/"
 COMPRESS_THRESHOLD = 5e5 # The threshold of compression
 
 # The main function for this program
